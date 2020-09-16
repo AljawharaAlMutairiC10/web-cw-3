@@ -7,25 +7,45 @@
     <style>
       /* لا تغير الكود التالي اكتب كودك تحته */
       .square {
+        
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        width: 150px;
+        width: 250px;
         height: 350px;
         background-color: black;
       }
 
-      .circle {
+      .circle1 {
         width: 100px;
         height: 100px;
         border-radius: 50px;
-        border: 0.5px solid white;
+        border: 0.5px solid rgb(0, 255, 0);
+        background-color: rgb(0, 255, 0);
+      }
+
+      .circle2 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: 0.5px solid rgb(238, 255, 0);
+        background-color: rgb(238, 255, 0);
+        ;
+      }
+
+      .circle3 {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        border: 0.5px solid rgb(255, 0, 0);
+        background-color: rgb(255, 0, 0);
       }
 
       /* 👇 اكتب الكود هنا */
 
-      img {
+      img {width: 250px;
+
         /* عدل على عرض الصورة */
       }
     </style>
@@ -36,7 +56,9 @@
     <!--            30 px غير حجم الخط الى-             -->
     <!--   (inline styling) p تلميح: ستغير خصائص عنصر   -->
     <!----------------====================---------------->
-    <p>مرحباً، أنا تمرين CSS</p>
+    <p style="color: darkorange; font-size: 30px; "
+    
+    >مرحباً، أنا تمرين CSS</p>
 
     <!-------------------المطلوب الثاني------------------->
     <!--             اجعل عرض الصورة ٢٥٠ بكسل-          -->
@@ -50,9 +72,9 @@
     <!-- style تلميح: ستغير خصائص الكلاسات اللي فوق داخل -->
     <!----------------====================---------------->
     <div class="square">
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+      <div class="circle1"></div>
+      <div class="circle2"></div>
+      <div class="circle3"></div>
     </div>
 
     <!----------------====================---------------->
